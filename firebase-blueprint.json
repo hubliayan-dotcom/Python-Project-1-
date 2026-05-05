@@ -1,0 +1,57 @@
+{
+  "entities": {
+    "Transaction": {
+      "title": "Transaction",
+      "description": "An expense or income entry",
+      "type": "object",
+      "properties": {
+        "date": { "type": "string", "format": "date-time" },
+        "description": { "type": "string" },
+        "amount": { "type": "number" },
+        "category": { "type": "string" },
+        "account": { "type": "string" },
+        "paymentMethod": { "type": "string" },
+        "userId": { "type": "string" },
+        "type": { "type": "string", "enum": ["income", "expense"] }
+      },
+      "required": ["date", "amount", "category", "userId", "type"]
+    },
+    "Category": {
+      "title": "Category",
+      "description": "Expense category",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "icon": { "type": "string" },
+        "userId": { "type": "string" }
+      },
+      "required": ["name", "userId"]
+    },
+    "Budget": {
+      "title": "Budget",
+      "description": "Monthly budget for a category",
+      "type": "object",
+      "properties": {
+        "month": { "type": "string" },
+        "categoryId": { "type": "string" },
+        "amount": { "type": "number" },
+        "userId": { "type": "string" }
+      },
+      "required": ["month", "categoryId", "amount", "userId"]
+    }
+  },
+  "firestore": {
+    "transactions": {
+      "schema": "Transaction",
+      "description": "User transactions"
+    },
+    "categories": {
+      "schema": "Category",
+      "description": "Custom categories"
+    },
+    "budgets": {
+      "schema": "Budget",
+      "description": "User budgets"
+    }
+  }
+}

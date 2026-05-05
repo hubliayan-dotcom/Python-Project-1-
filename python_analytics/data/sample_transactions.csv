@@ -1,0 +1,11 @@
+date,description,amount,type,category,payment_method
+2026-05-01,Salary,45000,income,Income,Bank Transfer
+2026-05-02,Swiggy Order,-450,expense,Food,UPI
+2026-05-03,Uber Ride,-250,expense,Transport,UPI
+2026-05-04,Amazon Purchase,-1200,expense,Shopping,Credit Card
+2026-05-05,Electricity Bill,-2400,expense,Bills,Bank Transfer
+2026-05-06,Zomato Dinner,-800,expense,Food,UPI
+2026-05-07,Freelance Payment,5000,income,Income,UPI
+2026-05-08,Netflix Subscription,-499,expense,Entertainment,Debit Card
+2026-05-09,Petrol Fill,-1500,expense,Transport,Cash
+2026-05-10,Pharmacy,-300,expense,Health,Cash
