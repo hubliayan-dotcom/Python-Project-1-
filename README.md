@@ -1,6 +1,4 @@
 # 💸 PrimeWealth — Full-Stack Personal Finance Analytics System (React + Python + Streamlit)
-
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20Preview-brightgreen?style=for-the-badge&logo=google-cloud)](https://ais-pre-2wihy3e6gigne7t6ylcris-50948685477.asia-southeast1.run.app)
 [![React](https://img.shields.io/badge/React-19.0-blue?logo=react)](https://reactjs.org/)
 [![Firebase](https://img.shields.io/badge/Firebase-Auth%20%26%20Firestore-orange?logo=firebase)](https://firebase.google.com/)
 [![Python](https://img.shields.io/badge/Python-Analytics-3776AB?logo=python)](https://www.python.org/)
@@ -11,22 +9,30 @@
 - Designed a Python ETL pipeline (CSV → SQLite → Pandas → Visualization)
 - Generated financial insights (KPIs, trends, category analysis, savings rate)
 - Deployed interactive dashboards (React + Streamlit) with automated reporting
-
 ---
+
+## 🚀 Live Demo
+
+👉 Try the app here: [https://img.shields.io/badge/Demo-Live%20Preview-brightgreen?style=for-the-badge&logo=google-cloud)](https://ais-pre-2wihy3e6gigne7t6ylcris-50948685477.asia-southeast1.run.app)]
+
+- Login with Google  
+- Add transactions  
+- Upload CSV  
+- View real-time insights  
 
 ## 📸 Demo Preview
 
 ### 1. Dashboard Overview
-![Dashboard](images/01_dashboard_overview.png)
+![Dashboard](01_dashboard_overview.png)
 
 ### 2. Spending Analysis
-![Spending](images/02_spending_analysis.png)
+![Spending](02_spending_analysis.png)
 
 ### 3. Transaction Entry & CSV Import
-![Transactions](images/03_transaction_entry_import.png)
+![Transactions](03_transaction_entry_import.png)
 
 ### 4. Historical Ledger
-![Ledger](images/04_transaction_ledger.png)
+![Ledger](04_transaction_ledger.png)
 
 ---
 
